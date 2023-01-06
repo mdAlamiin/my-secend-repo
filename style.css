@@ -22,6 +22,7 @@
     border-radius: 5px;
     width: 160px;
     height: 56px;
+    text-align: center;
 }
 .container{
     position: absolute;
@@ -45,8 +46,8 @@ h1{
 /* donate style */
 
 .donate{
-height: 200px;
-width: 700px;
+    height: 200px;
+    width: 700px;  
 }
 .title{
     font-weight: 700;
@@ -54,22 +55,32 @@ width: 700px;
     line-height: 54px;
     text-align: center;
     color: #121212;
+    margin-top: 130px;
 }
 .sub-title{
     display: flex;
+    margin: 50px 340px 60px 340px;
+    background: #FAFAFA;
+    border-radius: 5px;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    /* text-align: center; */
+    text-align: center;
     text-decoration: none;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+.box:hover {
+    background-color: #FF5959;
+
+}
+
 .dialog{
     font-weight: 400;
     font-size: 18px;
     text-align: center;
     color: #707070;
+    margin: 20px 375px 0 375px;
 }
 ul{
     display: flex;
@@ -77,11 +88,49 @@ ul{
 }
 .box{
     text-align: center;
-    border: 1px solid red;
+    border: 0 solid red;
+    padding: 22px 40px;
+    margin: 0 22px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    
 }
 .section-description{
     color: #B3B3B3;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
+}
+
+.source{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+
+/* fode sale  */
+
+
+
+.food-sale{
+    display: flex;
+    padding: 50px 155px 150px 155px;
+}
+.titles{
+    font-weight: 600;
+    font-size: 24px;
+}
+.food-description{
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
+}
+.food-title{
+    padding: 30px 22px 54px 23px;
+}
+.food{
+
 }
