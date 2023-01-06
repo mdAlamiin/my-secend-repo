@@ -2,17 +2,17 @@
     margin: 0;
 }
 .banner{
-    background-image: url('images/donation1.jpg');
+    background-image: url('images/donation3.jpg');
     height: 600px;
     text-align: center;
-    color: white;
+    color: rgb(250, 254, 2);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
       
 }
 .btn-primary{
-    background-color: brown;
+    background: #FF5959;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -111,7 +111,7 @@ ul{
     margin-bottom: 130px;
 }
 
-/* fode sale  */
+/* food sale  */
 
 
 
@@ -127,10 +127,86 @@ ul{
     color: #B3B3B3;
     font-weight: 400;
     font-size: 18px;
+    padding: 20px 0px;
 }
 .food-title{
     padding: 30px 22px 54px 23px;
 }
-.food{
 
+.Description{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+  }
+  .First{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+  }
+  .Second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+  }
+  
+  .Desc_Title{
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+  }
+  .Desc_des{
+    font-size: 20px;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+  
+  .pic{
+    width: 450px;
+    height: 450px;
+  }
+.primary_btn{
+    width: 230px;
+    height: 56px;  
+    background: #FF5959;
+    border-radius: 5px;
+}
+.poor{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.personal{
+    height: 48px;
+    width: 432px;
+}
+.btn-secendari{
+    background: #FF5959;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 16px 20px;
+    height: 64px;
+    width: 160px;
+    height: 56px;
+    text-align: center;
+}
+.humble{
+    color: #FF5959;
+    text-align: center;
+    
+}
+.foot{
+    background: #0B0D17;
+    padding: 40px 630px 42px 650px;
 }
